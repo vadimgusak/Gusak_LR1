@@ -33,7 +33,7 @@ double CalcArea(double num)
 
 double CalcPeri(double num)
 {
-    return 0;
+    return 3 * num;
 }
 
 int main() {
