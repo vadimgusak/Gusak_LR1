@@ -65,7 +65,7 @@ int main() {
             cout << "Площадь равностороннего треугольника: " << a << endl << endl;
             break;
         case TASK_CALC_PERI:
-            p = CalcArea(n);
+            p = CalcPeri(n);
             cout << "Периметр равностороннего треугольника: " << p << endl<< endl;
             break;
         case 0:
