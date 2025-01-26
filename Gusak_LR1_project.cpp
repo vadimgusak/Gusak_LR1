@@ -28,7 +28,7 @@ double EnterNumber()
 
 double CalcArea(double num)
 {
-    return 0;
+    return num * num * sqrt(3) / 4;
 }
 
 double CalcPeri(double num)
