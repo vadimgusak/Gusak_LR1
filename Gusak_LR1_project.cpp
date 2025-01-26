@@ -21,7 +21,9 @@ const string TASK_NAMES[NUM_TASKS] = {
 
 double EnterNumber()
 {
-    return 0;
+    double n;
+    cin >> n;
+    return abs(n);
 }
 
 double CalcArea(double num)
